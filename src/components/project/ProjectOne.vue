@@ -60,6 +60,7 @@ export default {
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
     <div class="project-bg">
+      <div class="container">
 		<div class="form-container">
         <form @submit.prevent="showModal">
             <div class="input-group">
@@ -89,6 +90,7 @@ export default {
         <p>Gracias por contactarnos, nos estaremos comunicando contigo en breve.</p>
         <button @click="hideThankYouModal">Cerrar</button>
       </div>
+    </div>
     </div>
 </template>
 

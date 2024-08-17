@@ -53,6 +53,7 @@ onUpdated(() => {
 
 <template>
 	<div class="jeffer-fqe">
+    <div class="container">
 
     <h1 class="texto-h3">FQAS</h1>
 	<p class="clase">Optimiza la comunicación con tus clientes mediante nuestro <br>chatbot inteligente, integrado con WhatsApp y potenciado por <br> GPT-4. Responde automáticamente a consultas frecuentes,<br> muestra catálogos y ayuda a tus clientes a realizar pedidos<br> o reservas  de citas sin complicaciones.</p>
@@ -88,13 +89,12 @@ onUpdated(() => {
       <div>
         <input class="accordion-item-input" type="checkbox" name="accordion" id="item5" /><label for="item5" class="accordion-item-hd">¿Cómo se realiza el seguimiento de los pagos y el estatus de las órdenes?<span class="accordion-item-hd-cta">&#9650;</span></label>
         <div class="accordion-item-bd respuesta"><p><span class="punto"></span>Nuestro sistema actualiza automáticamente el estatus de las órdenes tras la confirmación del pago y envía notificaciones a tus clientes sobre el progreso de su orden. Además, proporciona un enlace para que los clientes consulten el estatus de su orden en cualquier momento.  </p></div>
-      </div>
-
-
-      </div>      
+      </div>  
     </div>    
+  </div>
 </section>
 </body>
+</div>    
 	</div>
 </template>
 

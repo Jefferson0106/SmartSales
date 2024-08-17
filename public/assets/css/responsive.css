@@ -694,6 +694,10 @@
 	.achievement-area {
 		height: 204px;
 	}
+	.footer-bottom::before {
+		width: 263px; /* Ajusta este valor para cambiar el largo del borde */
+	
+	}
 
 	.single-counter-box {
 		margin: 30px 0;
