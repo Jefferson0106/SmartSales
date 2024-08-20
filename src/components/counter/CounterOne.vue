@@ -286,7 +286,7 @@ onUpdated(() => {
 	  text-align: left;
 	  font-size: 16px;
 	  width: 100%;
-	  max-height: 2226px;
+	  max-height: 2392px;
 	  max-width: 1000px;
 	
 	}
@@ -294,7 +294,7 @@ onUpdated(() => {
 	
 	@media only screen and (max-width: 440px) {
 	  .snip1404 .plan {
-		width: calc(100% - 20px); /* Ajusta el ancho aún más para pantallas más pequeñas */
+		width: calc(86% - 20px)/* Ajusta el ancho aún más para pantallas más pequeñas */
 	  }
 	}
 	</style>

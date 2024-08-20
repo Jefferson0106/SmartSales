@@ -99,6 +99,7 @@ onUpdated(() => {
 		text-align: center;
 	white-space: nowrap;
 	font-size: 20px;
+	left: -23px;
 }
 .gray-bg .parrafo-facturacion{
 	text-align: center;

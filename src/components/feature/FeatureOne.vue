@@ -63,7 +63,7 @@ onMounted(async () => {
 @media (max-width: 768px) {
 	.telefono-mano .h2-titulo-smarmar-punto{
 		text-align: center;
-     left: -20px;
+     left: -52px;
 	font-size: 14px;
 	top: -520px;
 }
