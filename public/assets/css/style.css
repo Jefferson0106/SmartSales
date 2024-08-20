@@ -1624,12 +1624,13 @@ single-service-area.active {
 
 .project-bg {
 	background-color: #0070ff;
-	background-image: url(../resourcomp/ouxee.png);
+	background-image: url(../resourcomp/ouxeback.png);
 	height: 500px;
 }
 .jeffer-fqe{
 	background-color: #0070ff;
-	background-image: url(../resourcomp/ouxee.png); 
+	background-image: url(../resourcomp/ouxeback.png); 
+	height: 700px;
 	
 }
 
@@ -3291,7 +3292,7 @@ ul.team-social li a {
     font-weight: 700;
     line-height: 1.2;
     margin-bottom: 10px;
-	top: -50px;
+	top: 3px;
 	white-space: nowrap; /* Evita que el texto se divida en varias líneas */
 }
 
@@ -3300,14 +3301,14 @@ ul.team-social li a {
     font-size: 30px;
     font-weight: 600;
     margin-bottom: 10px;
-	top: -60px;
+	top: -11px;
 }
 .breadcroumb-area p {
 	color: #333;
     font-size: 16px;
     line-height: 1.8;
     margin-bottom: 30px;
-	top: -30px;
+	top: 28px;
 }
 .breadcroumb-area img {
 	max-width: 500px;
@@ -3315,7 +3316,7 @@ ul.team-social li a {
 	position: relative;
 	top: -40px;
 	left: 90px;
-	top: -100px;
+	top: -68px;
     height: auto;
 }
 .breadcroumb-area .main-btn {
@@ -3333,7 +3334,7 @@ ul.team-social li a {
     cursor: pointer;
 	position: relative;
     transition: background-color 0.3s ease, color 0.3s ease;
-	top: -50px;
+	top: 25px;
 }
 .breadcroumb-area .main-btn:hover {
 	background: #0061f2; /* Fondo azul en hover */

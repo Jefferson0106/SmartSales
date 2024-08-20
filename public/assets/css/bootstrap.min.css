@@ -5040,7 +5040,7 @@ fieldset:disabled .btn {
 
 .accordion-button::after {
     flex-shrink: 0;
-    width: var(--bs-accordion-btn-icon-width);
+   /* width: var(--bs-accordion-btn-icon-width); */
     height: var(--bs-accordion-btn-icon-width);
     margin-left: auto;
     content: "";

@@ -5,6 +5,8 @@ import {
 
 	
   } from "../views";
+  import HeroOne from '../components/heroarea/HeroOne.vue';
+
 
 
 
@@ -14,6 +16,10 @@ const routes = [
 		path: "/",
 		name: "home",
 		component: HomeOne,
+		children: [
+			{ name: '/HeroOne', path: 'HeroOne', component: HeroOne },
+			
+		  ]
 	},		
 	{
 		path: "/index-2",

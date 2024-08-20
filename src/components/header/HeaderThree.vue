@@ -73,10 +73,9 @@ onMounted(() => {
  											</li>
 
  											<li class="nav-item">
- 												<a class="nav-link" href="#">Conocenos
+												<router-link class="nav-link" to="/HeroOne">Conocenos</router-link>
  													<span class="sub-nav-toggler">
  													</span>
- 												</a>
  												<!----ul class="sub-menu">
  													<li><router-link :to="{name:'about'}">About us</router-link></li>
  													<li><router-link :to="{name:'choose-us'}">Why Choose Us</router-link></li>
@@ -99,6 +98,7 @@ onMounted(() => {
  											</li>
 
  											<li class="nav-item">
+												
  												<a class="nav-link" href="#">Planes 
  													<span class="sub-nav-toggler">
  													</span>
