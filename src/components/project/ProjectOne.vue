@@ -56,6 +56,7 @@ export default {
 </script>
 
 <template>
+  <section id="project">
 	 <head>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
@@ -92,6 +93,7 @@ export default {
       </div>
     </div>
     </div>
+  </section>
 </template>
 
 <style scoped>

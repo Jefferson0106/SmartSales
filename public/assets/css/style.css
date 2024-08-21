@@ -2124,7 +2124,7 @@ p.blog-meta i:before {
 }
 
 .footer-area ul li a:hover {
-	color: #F35C27;
+	color: #ffff;
 }
 
 .subscribe-form button {
@@ -2834,7 +2834,7 @@ ul.team-social li a {
 	top: -7px;
 	left: -30px;
 	border-radius: 50%;
-	background: #F35C27;
+	background: #ffff;
 	z-index: 1;
 	opacity: .4;
 }
@@ -2898,7 +2898,7 @@ ul.team-social li a {
 }
 
 #service-3 .single-service-area:hover .service-icon i:before {
-	color: #F35C27;
+	color: #ffff;
 }
 
 /*Achievement Section # 02
@@ -3021,7 +3021,7 @@ ul.team-social li a {
 .pop-up-video a.video-play-btn {
 	font-size: 20px;
 	color: #fff;
-	border: 2px solid #F35C27;
+	border: 2px solid #ffff;
 	border-radius: 50%;
 	padding: 15px;
 	width: 70px;
@@ -3033,7 +3033,7 @@ ul.team-social li a {
 	left: 50%;
 	margin-left: -35px;
 	margin-top: -35px;
-	background: #F35C27;
+	background: #ffff;
 	cursor: pointer;
 	z-index: 9;
 }
@@ -3088,7 +3088,7 @@ ul.team-social li a {
 	right: 70px;
 	top: 0;
 	z-index: 9;
-	background: #f35c27e0;
+	background: #ffff;
 	width: 40px;
 	height: 40px;
 	border-radius: 50%;
@@ -3123,7 +3123,7 @@ ul.team-social li a {
 }
 
 .single-process-item:hover .process-icon {
-	border-color: #fd642ceb;
+	border-color: #ffff;
 	opacity: .8;
 }
 
@@ -3165,7 +3165,7 @@ ul.team-social li a {
 	bottom: -10px;
 	left: 0;
 	right: 0;
-	background: #F35C27;
+	background: #ffff;
 	margin: 0 auto;
 }
 
@@ -3203,7 +3203,7 @@ ul.team-social li a {
 }
 
 .price-list ul li i {
-    color: #FA4729;
+    color: #ffff;
     font-size: 20px;
     font-weight: 600;
     margin-right: 15px;
@@ -3412,8 +3412,8 @@ ul.team-social li a {
 	padding: 10px;
   }
   .blog-content-wrap .social-icon i:hover {
-	background: #FA4729;
-	border-color: #FA4729;
+	background: #ffff;
+	border-color: #ffff;
 	color: #fff;
   }
   
@@ -3663,7 +3663,7 @@ ul.team-social li a {
 	margin-bottom: 25px;
   }
   .blog-category ul li a:hover {
-	color: #FA4729;
+	color: #ffff;
   }
   
   .blog-category ul li i {
@@ -3738,8 +3738,8 @@ ul.team-social li a {
 	margin: 5px;
   }
   .popular-tag-wrap span:hover {
-	background: #FA4729;
-	border-color: #FA4729;
+	background: #ffff;
+	border-color: #FFFFFF;
 	color: #fff;
 	cursor: pointer;
   }
@@ -3755,15 +3755,15 @@ ul.team-social li a {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background: #FA4729;
-	border-color: #FA4729;
+	background: #ffff;
+	border-color: #ffff;
 	color: #fff;
   }
   
   .page-item:first-child .page-link {
 	display: inline-flex;
-	background: #FA4729;
-	border-color: #FA4729;
+	background: #ffff;
+	border-color: #fff;
 	border-radius: 0;
   }
   
@@ -3782,8 +3782,8 @@ ul.team-social li a {
   }
   .page-link:hover,
   .page-link.active:hover {
-	background: #FA4729;
-	border-color: #FA4729;
+	background: #fff;
+	border-color: #ffff;
 	color: #fff;
   }
   
@@ -4108,7 +4108,7 @@ ul.port-menu.recent {
 }
 
 .service-list a.active {
-	background: #F35C27;
+	background: #ffff;
 	color: #fff;
 }
 
@@ -4323,7 +4323,7 @@ ul.port-menu.recent {
 
 .contact-us-inner a {
 	text-transform: uppercase;
-	color: #F35C27;
+	color: #ffff;
 	font-size: 17px;
 	font-weight: 500;
 	margin: 20px 0 10px;
@@ -4336,7 +4336,7 @@ ul.port-menu.recent {
 
 #contact-us .info-i i:before {
 	font-size: 50px;
-	color: #F35C27;
+	color: #fff;
 }
 
 #contact-us .contact-form .main-btn {

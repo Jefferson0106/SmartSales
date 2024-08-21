@@ -101,6 +101,7 @@ onMounted(() => {
 		position: relative;
 		top: 200px;
 		left: 10px;
+		text-align: center;
 	}
     
     .robot-image {

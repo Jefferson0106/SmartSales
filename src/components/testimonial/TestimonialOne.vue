@@ -19,6 +19,7 @@ onMounted(() => {
 </script>
 
 <template>
+  <section id="contact">
     <div class="jeffer-fqe">
         <div class="container">
           <div>
@@ -90,6 +91,7 @@ onMounted(() => {
                 </div>
         </div>    
     </div>
+  </section>
 </template>
 
 <style scoped>

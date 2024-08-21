@@ -14,17 +14,32 @@
  						<h5>Dolorsit</h5>
  						<ul>
  							<li>
- 								<router-link :to="{name:'about'}">Home</router-link>
- 								<router-link :to="{name:'project'}">conocenos</router-link>
- 								<router-link to="/">Contactanos</router-link>
- 								<router-link :to="{name:'price'}">Planes</router-link>
- 								<router-link :to="{name:'faq'}">FAQ</router-link>
+								<section id="about">
+									<a class="nav-link" href="#hero">Home
+										</a>
+								</section>
+								<section id="about">
+									<a class="nav-link" href="#about">Conocenos
+										</a>
+								</section>
+								<section id="about">
+									<a class="nav-link" href="#project">contáctanos
+										</a>
+								</section>
+								<section id="about">
+									<a class="nav-link" href="#counterOne">Planes 
+										</a>
+								</section>
+								<section id="about">
+									<a class="nav-link" href="#contact">FQAS 
+										</a>
+								</section>
  							</li>
  						</ul>
  					</div>
  					<div class="col-lg-3 col-md-6 col-sm-12">
  						<h5>Legal</h5>
-						 <ul>
+						 <ul>	
         <li><a href="#modal1">Aviso de Privacidad</a></li>
 		<li><a href="#modal2">Términos y Condiciones</a></li>
         <!---li><a href="#modal2">ROTAR</a></li>
@@ -130,8 +145,8 @@
 						<div class="social-area">
  							<a href=""><i class="lab la-facebook-f"></i></a>
  							<a href=""><i class="lab la-instagram"></i></a>
- 							<a href=""><i class="lab la-twitter"></i></a>
- 							<a href=""><i class="la la-skype"></i></a>
+ 							<a href=""><i class="fab fa-twitter"></i></a>
+ 							<a href=""><i class="fab fa-youtube"></i></a>
  						</div>
  					</div>
  				</div>
@@ -222,5 +237,11 @@
 
 .modalbox ul li {
     margin-bottom: 10px;
+}
+@media (max-width: 768px) {
+    .col-lg-3 {
+        /* Puedes ajustar el ancho o el padding si es necesario */
+        padding: 10px;
+    }
 }
 </style>

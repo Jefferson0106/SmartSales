@@ -1,9 +1,12 @@
 <template>
+	<section id="project">
     <div class="achievement-area">
  		<div class="container">
 			<h2 class="container-h2-footer">Registrate ahora  y dale  un nuevo enfoque a tu negocio!</h2>
  			</div>
  	</div>
+
+</section>
 </template>
 
 <style scoped>

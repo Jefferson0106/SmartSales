@@ -24,7 +24,7 @@ onUpdated(() => {
 
 
 <template>
-
+<section id="counterOne">
 	<div class="container">
 		<!-- main -->
 	   
@@ -103,6 +103,7 @@ onUpdated(() => {
 	  </div>
 	</div>
 	</div>
+</section>
 		<!----div class="services-area gray-bg section-padding pad-bot-90">
 			 <div class="container">
 				 <div class="row">
@@ -270,7 +271,7 @@ onUpdated(() => {
 		width: calc(10% - 10px); /* Ajusta el ancho para pantallas pequeñas */
 		margin: 10px 0; /* Reduce el margen vertical */
 		display: block; /* Asegura que los planes se apilen verticalmente */
-		left: 0; /* Restablece la posición relativa */
+		left: 31px; /* Restablece la posición relativa */
 		top: -127px;
 	  }
 	  .h3-planes {

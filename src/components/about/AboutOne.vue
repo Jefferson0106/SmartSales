@@ -1,4 +1,5 @@
 <template>
+	<section id="about">
 	<div class="hero-area-bg-2 ">
     <div class="about-area section-padding">
  		<div class="container">
@@ -42,6 +43,7 @@
  		</div>
  	</div>
 </div>
+</section>
 </template>
 
 <style scoped>

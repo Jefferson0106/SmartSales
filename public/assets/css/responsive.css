@@ -155,18 +155,18 @@
 	}
 
 	.main-menu .navbar .navbar-collapse {
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		background-color: #fff;
-		z-index: 999;
-		padding: 10px 16px;
-		-webkit-box-shadow: 0 26px 48px 0 rgba(0, 0, 0, 0.15);
-		box-shadow: 0 26px 48px 0 rgba(0, 0, 0, 0.15);
-		margin-top: 15px;
-	}
-
+        position: absolute;
+        top: 0;
+        left: auto;
+        right: 0;
+        width: 100%;
+        background-color: #fff;
+        z-index: 999;
+        padding: 10px 16px;
+        -webkit-box-shadow: 0 26px 48px 0 rgba(0, 0, 0, 0.15);
+        box-shadow: 0 26px 48px 0 rgba(0, 0, 0, 0.15);
+        margin-top: 15px;
+    }
 	#header-2 .main-menu .navbar .navbar-collapse {
 		position: absolute;
 		top: 70px;
@@ -571,17 +571,18 @@
 	}
 
 	.main-menu .navbar .navbar-collapse {
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		background-color: #fff;
-		z-index: 999;
-		padding: 10px 16px;
-		-webkit-box-shadow: 0 26px 48px 0 rgba(0, 0, 0, 0.15);
-		box-shadow: 0 26px 48px 0 rgba(0, 0, 0, 0.15);
-		margin-top: 15px;
-	}
+        position: absolute;
+        top: 0;
+        left: auto;
+        right: 0;
+        width: 100%;
+        background-color: #fff;
+        z-index: 999;
+        padding: 10px 16px;
+        -webkit-box-shadow: 0 26px 48px 0 rgba(0, 0, 0, 0.15);
+        box-shadow: 0 26px 48px 0 rgba(0, 0, 0, 0.15);
+        margin-top: 15px;
+    }
 
 	#header-2 .main-menu .navbar .navbar-collapse {
 		position: absolute;
@@ -1103,17 +1104,18 @@
 	}
 
 	.main-menu .navbar .navbar-collapse {
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		background-color: #fff;
-		z-index: 999;
-		padding: 10px 16px;
-		-webkit-box-shadow: 0 26px 48px 0 rgba(0, 0, 0, 0.15);
-		box-shadow: 0 26px 48px 0 rgba(0, 0, 0, 0.15);
-		margin-top: 15px;
-	}
+        position: absolute;
+        top: 0;
+        left: auto;
+        right: 0;
+        width: 100%;
+        background-color: #fff;
+        z-index: 999;
+        padding: 10px 16px;
+        -webkit-box-shadow: 0 26px 48px 0 rgba(0, 0, 0, 0.15);
+        box-shadow: 0 26px 48px 0 rgba(0, 0, 0, 0.15);
+        margin-top: 15px;
+    }
 
 
 	.navigation .navbar .navbar-nav .nav-item .sub-nav-toggler {
