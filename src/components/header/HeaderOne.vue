@@ -86,7 +86,7 @@ onMounted(() => {
  												</ul> ---->
  											</li>
  											<li class="nav-item">
- 												<a class="nav-link" href="#">contáctanos
+ 												<a class="nav-link" href="#">Contáctanos
  													<span class="sub-nav-toggler">
  													</span>
  												</a>
