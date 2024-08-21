@@ -66,6 +66,9 @@ onMounted(() => {
 						  </a>
 						</li>
 
+
+
+
   
 						<li class="nav-item">
 						  <a class="nav-link" href="#about">Conocenos
@@ -74,7 +77,7 @@ onMounted(() => {
 						</li>
   
 						<li class="nav-item">
-						  <a class="nav-link" href="#project">Contáctanos
+						  <a class="nav-link" href="#servicio">Contáctanos
 							<span class="sub-nav-toggler"></span>
 						  </a>
 						</li>
@@ -94,11 +97,49 @@ onMounted(() => {
 					</div>
 				  </nav>
 				</div>
-			  </div>
+			  </div>	
 			</div>
+			<div class="col-lg-3 text-end">
+ 							<div class="header-right-content">
+ 								<router-link :to="{name:'contact'}" class="header-btn main-btn">inicia seccion</router-link>
+							
+ 							</div>
+ 						</div> 
+					
 		  </div>
 		</div>
 	  </div>
 	</header>
   </template>
   
+  <style scoped>
+.main-btn {
+	display: inline-block;
+	position: relative;
+	left: 843px;
+	top: -70px;
+	background: #0070ff;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 500;
+	
+	text-transform: capitalize;
+	padding: 10px 30px;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	-webkit-transition: .3s;
+	transition: .3s;
+}
+@media (max-width: 768px) {
+	.main-btn {
+	position: relative;
+	width: 50%;
+	height: 10%;
+	left: 8px;
+	top: -18px;
+	padding: 1px 40px;
+	
+	}
+	}
+  </style>

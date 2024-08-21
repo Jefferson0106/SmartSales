@@ -1,6 +1,6 @@
 <script setup>
 
-import {BreadCrumb, HeaderThree, ProjectOne, ProjectTwo, FeatureProject,
+import {BreadCrumb, HeaderThree, ProjectOne, ProjectTwo, FeatureProject , HeroOne,CTAOne
 
 
 } from "../components";
@@ -9,10 +9,11 @@ import {BreadCrumb, HeaderThree, ProjectOne, ProjectTwo, FeatureProject,
 </script>
 <template>
     <HeaderThree/>
-    <BreadCrumb/>
+   <HeroOne/>
+   <CTAOne/>
     <ProjectOne/>
-    <ProjectTwo/>
-    <FeatureProject/>
+
+    
 </template>
 
 <style scoped>
