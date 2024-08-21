@@ -101,7 +101,8 @@ onMounted(() => {
 			</div>
 			<div class="col-lg-3 text-end">
  							<div class="header-right-content">
- 								<router-link :to="{name:'contact'}" class="header-btn main-btn">inicia seccion</router-link>
+								<button class="header-btn main-btn">inicia seccion</button>
+ 								<!----router-link :to="{name:'contact'}" class="header-btn main-btn">inicia seccion</router-link> --->
 							
  							</div>
  						</div> 
@@ -122,7 +123,8 @@ onMounted(() => {
 	color: #fff;
 	font-size: 16px;
 	font-weight: 500;
-	
+	border: 2px solid #0070ff;
+	border-radius: 5px;
 	text-transform: capitalize;
 	padding: 10px 30px;
 	text-align: center;
