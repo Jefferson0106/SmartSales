@@ -101,7 +101,7 @@ onMounted(() => {
 			</div>
 			<div class="col-lg-3 text-end">
  							<div class="header-right-content">
-								<button class="header-btn main-btn">inicia seccion</button>
+								<button class="header-btn main-btn">inicia sesión</button>
  								<!----router-link :to="{name:'contact'}" class="header-btn main-btn">inicia seccion</router-link> --->
 							
  							</div>
