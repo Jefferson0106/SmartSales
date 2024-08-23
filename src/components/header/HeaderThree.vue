@@ -46,7 +46,7 @@ onMounted(() => {
 			<div class="row align-items-center">
 			  <div class="col-lg-3">
 				<div class="logo"> 								
-				  <router-link class="navbar-brand" to="/"><img src="/assets/resourcomp/logo-black.png" alt=""></router-link>
+				  <router-link class="navbar-brand" to="/"><img src="/assets/resourcomp/logo-simple.png" alt=""></router-link>
 				</div>
 			  </div>
 			  <div class="col-lg-6">
@@ -61,7 +61,7 @@ onMounted(() => {
 					<div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
 					  <ul class="navbar-nav m-auto">
 						<li class="nav-item">
-						  <a class="nav-link" href="#hero">Home
+						  <a class="nav-link" href="#hero">Inicio
 							<span class="sub-nav-toggler"></span>
 						  </a>
 						</li>
@@ -101,7 +101,8 @@ onMounted(() => {
 			</div>
 			<div class="col-lg-3 text-end">
  							<div class="header-right-content">
-								<button class="header-btn main-btn">inicia sesión</button>
+								<button class="buton-login-inicio">Acceso</button>
+								<button class="buton-login">iniciar sesión</button>
  								<!----router-link :to="{name:'contact'}" class="header-btn main-btn">inicia seccion</router-link> --->
 							
  							</div>
@@ -114,34 +115,23 @@ onMounted(() => {
   </template>
   
   <style scoped>
-.main-btn {
-	display: inline-block;
-	position: relative;
-	left: 843px;
-	top: -70px;
-	background: #0070ff;
-	color: #fff;
-	font-size: 16px;
-	font-weight: 500;
-	border: 2px solid #0070ff;
-	border-radius: 5px;
-	text-transform: capitalize;
-	padding: 10px 30px;
-	text-align: center;
-	vertical-align: middle;
-	cursor: pointer;
-	-webkit-transition: .3s;
-	transition: .3s;
-}
 @media (max-width: 768px) {
-	.main-btn {
-	position: relative;
-	width: 50%;
-	height: 10%;
-	left: 8px;
-	top: -18px;
-	padding: 1px 40px;
-	
-	}
+	.buton-login {
+		position: relative;
+		width: 30%;
+		height: 10%;
+		left: 8px;
+		top: -18px;
+		padding: 1px 10px;
+		}
+
+		.buton-login-inicio{
+			position: relative;
+			width: 30%;
+		height: 10%;
+		left: -2px;
+		top: -18px;
+		padding: 1px 10px;
+		}
 	}
   </style>

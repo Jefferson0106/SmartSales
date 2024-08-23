@@ -69,7 +69,7 @@ onMounted(() => {
                         <h1>IMPULSA TUS VENTAS</h1>
                         <h3>Lleva tu negocio al siguiente nivel</h3>
                         <p>Descubre cómo nuestra solución de atención al cliente multi-empresa  puede transformar la forma en que gestionas tus productos, servicios y clientes. Con Smart Sales, maximiza la eficiencia y mejora la experiencia de tus clientes con herramientas avanzadas de automatización e integración.</p>
-                        <router-link :to="{name:'about'}" class="main-btn">contáctanos</router-link>
+                       <button class="main-btn">contáctanos</button>
                     </div>
                 </div>
                 <div class="col-lg-6 text-right wow fadeInUp animated" data-wow-delay=".4s">
@@ -113,7 +113,7 @@ onMounted(() => {
 	.main-btn {
 		position: relative;
 		top: 200px;
-		left: 100px;
+		left: 136px;
 	}
 }
 </style>

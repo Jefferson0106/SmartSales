@@ -420,21 +420,40 @@ hr {
 }
 
 .buton-login {
-	
-    background: #0061f2;
-	position: relative;
-	top: -66px;
-	left: 850px;
-
-    color: #ffff;
-    font-size: 16px;
+	display: inline-block;
+    background: #0061f2; /* Fondo transparente */
+    color: #ffff; /* Color del texto del botón, más oscuro */
+    font-size: 14px; /* Ajuste del tamaño de la fuente */
     font-weight: 500;
-    border: 2px solid #0061f2;
-    border-radius: 5px;
-    padding: 7px 50px;
+    border: 2px solid #0061f2; /* Borde azul */
+    border-radius: 5px; /* Esquinas redondeadas */
+    letter-spacing: normal; /* Espaciado normal entre letras */
+    padding: 10px 30px; /* Ajuste de padding para un tamaño más compacto */
+    text-align: center;
+    vertical-align: middle;
     cursor: pointer;
+	position: relative;
     transition: background-color 0.3s ease, color 0.3s ease;
-	gap: 20px; /* Espacio entre los botones */
+	top: -69px;
+	left: 892px;
+}
+.buton-login-inicio{
+	display: inline-block;
+    background: #0061f2; /* Fondo transparente */
+    color: #ffff; /* Color del texto del botón, más oscuro */
+    font-size: 14px; /* Ajuste del tamaño de la fuente */
+    font-weight: 500;
+    border: 2px solid #0061f2; /* Borde azul */
+    border-radius: 5px; /* Esquinas redondeadas */
+    letter-spacing: normal; /* Espaciado normal entre letras */
+    padding: 10px 30px; /* Ajuste de padding para un tamaño más compacto */
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+	position: relative;
+    transition: background-color 0.3s ease, color 0.3s ease;
+	top: -69px;
+	left: 872px;
 }
 
 .main-btn.btn-2 {
