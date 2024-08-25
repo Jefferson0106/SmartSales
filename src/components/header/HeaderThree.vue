@@ -36,6 +36,7 @@ onMounted(() => {
   
 });
 
+
 </script>
 
 <template>
@@ -101,7 +102,7 @@ onMounted(() => {
 			</div>
 			<div class="col-lg-3 text-end">
  							<div class="header-right-content">
-								<button class="buton-login-inicio">Acceso</button>
+								<!---button class="buton-login-inicio">Login</button> --->
 								<button class="buton-login">iniciar sesión</button>
  								<!----router-link :to="{name:'contact'}" class="header-btn main-btn">inicia seccion</router-link> --->
 							
@@ -114,24 +115,6 @@ onMounted(() => {
 	</header>
   </template>
   
-  <style scoped>
-@media (max-width: 768px) {
-	.buton-login {
-		position: relative;
-		width: 30%;
-		height: 10%;
-		left: 8px;
-		top: -18px;
-		padding: 1px 10px;
-		}
-
-		.buton-login-inicio{
-			position: relative;
-			width: 30%;
-		height: 10%;
-		left: -2px;
-		top: -18px;
-		padding: 1px 10px;
-		}
-	}
+  <style>
+@import '../../../public/assets/css/responsive.css';
   </style>

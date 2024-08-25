@@ -238,10 +238,30 @@
 .modalbox ul li {
     margin-bottom: 10px;
 }
-@media (max-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
     .col-lg-3 {
         /* Puedes ajustar el ancho o el padding si es necesario */
         padding: 10px;
     }
+	.footer-area h5 {
+		color: #fff;
+		margin: 20px 0;
+		position: relative;
+		top: -21px;
+		left: 13px;
+	}
+	.col-md-6{
+		flex: 0 0 auto;
+        width: 50%;
+    }
+	.footer-up .social-area a {
+    background-color: #ffff;
+    border: 1px solid #eee;
+    padding: 10px;
+    margin-right: 10px;
+    position: relative;
+    top: 86px;
+	left: -116px;
 }
+	}
 </style>

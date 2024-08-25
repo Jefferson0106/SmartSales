@@ -60,24 +60,21 @@ onMounted(async () => {
 	</div>
 </template>
 <style scoped>
-@media (max-width: 768px) {
-	.telefono-mano .h2-titulo-smarmar-punto{
-		text-align: center;
-     left: -52px;
-	font-size: 14px;
-	top: -520px;
-}
-.telefono-mano p {
+@import '../../../public/assets/css/responsive.css';
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.telefono-mano .h2-titulo-smarmar-punto{
 	text-align: center;
-	left: -5px;
-	top: -550px;
+ left: -10px;
+font-size: 26px;
+top: -520px;
 }
 .telefono-mano .imagen-telefono{
-	width: 80%;
-	position: relative;
-	top: 256px;
-	left: 30px;
-	z-index: 1;
+width: 63%;
+position: relative;
+top: -3;
+left: 134px;
+z-index: 1;
 }
+
 }
 </style>

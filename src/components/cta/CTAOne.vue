@@ -16,7 +16,7 @@
 	font-weight: 800;
 	top: 210px;
 }
-@media (max-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
 
 	.container-h2-footer{
 		font-size: 25px;
@@ -25,5 +25,20 @@
 	top: 100px;
 	
 }
+}
+
+/* Mobile Layout: 320px. 
+=====================================================================
+=====================================================================
+*/
+
+@media only screen and (max-width: 767px) {
+
+	.container-h2-footer{
+		font-size: 25px;
+	text-align: center;
+	color: #ffffff;
+	top: 100px;
+	}
 }
 </style>

@@ -187,7 +187,35 @@ input[type="text"], input[type="email"], input[type="tel"] {
 
 
 
-@media (max-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.form-container {
+	position: relative;
+	text-align: center;
+	left: 27px;
+	top: 31px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 1200px;
+	height: 420px;
+    max-width: 90%; /* Se asegura de que se vea bien en pantallas pequeñas */
+}
+button {
+    width: 47%;
+    
+}
+
+}
+
+
+
+/* Mobile Layout: 320px. 
+=====================================================================
+=====================================================================
+*/
+
+@media only screen and (max-width: 767px) {
 	.form-container {
 	position: relative;
 	text-align: center;

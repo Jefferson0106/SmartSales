@@ -33,6 +33,7 @@
 
 }
 
+
 /* Tablet Layout: 768px. 
 ========================================================================
 ========================================================================
@@ -42,6 +43,181 @@
 	.header-top{
 		display: none;
 	}
+	.buton-login-inicio{
+		position: relative;
+		top: -8px;
+		left: 10px;
+		display: none;
+	}
+	.buton-login{
+		position: relative;
+		top: -8px;
+		left: 10px;
+		display: none;
+	}
+	.breadcroumb-area .main-btn{
+		display: inline-block;
+    background: #fff; /* Fondo transparente */
+    color: #333; /* Color del texto del botón, más oscuro */
+    font-size: 14px; /* Ajuste del tamaño de la fuente */
+    font-weight: 500;
+    border: 2px solid #0061f2; /* Borde azul */
+    border-radius: 5px; /* Esquinas redondeadas */
+    letter-spacing: normal; /* Espaciado normal entre letras */
+    padding: 10px 30px; /* Ajuste de padding para un tamaño más compacto */
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+	position: relative;
+    transition: background-color 0.3s ease, color 0.3s ease;
+		top: 216px;
+		left: 300px;
+	}
+	.breadcroumb-area h1 {
+        font-size: 30px;
+		text-align: center;
+		position: relative;
+		top: 200px;
+    }
+	.breadcroumb-area h3 {
+		font-size: 28px;
+		text-align: center;
+		position: relative;
+		top: 200px;
+	}
+	.breadcroumb-area p {
+		position: relative;
+		top: 200px;
+		left: 10px;
+		text-align: center;
+	}
+    
+    .robot-image {
+        max-width: 200px;
+		text-align: center;
+		position: relative;
+		top: -295px;
+		left: 291px;
+    }
+	.main-btn {
+		position: relative;
+		top: 200px;
+		left: 136px;
+	}
+
+
+	.hero-area-bg-2 h1 {
+		font-size: 33px;
+		top: -20px;
+		text-align: center;
+
+	}
+	.hero-area-bg-2 .h2-titulo-smarmar-punto{
+		text-align: center;
+	font-size: 34px;
+	top: -350px;
+}
+.hero-area-bg-2 .imagen-telefono {
+	background-position: center ;
+	position: relative;
+    width: 70%;
+	text-align: center;
+	top: 197px;
+	left: 122px;
+
+}
+.section-padding {
+	padding: 40px 40px;
+	height: 814px;
+}
+
+.hero-area-bg-2 .imagen-whatsapp {
+	position: relative;
+	top: 80px;
+	left: 158px;
+	width: 40%;
+}
+.hero-area-bg-2 p {
+	text-align: center;
+   position: relative;
+   top: -332px;
+}
+
+.gray-bg .h2-facturacion {
+	text-align: center;
+white-space: nowrap;
+font-size: 34px;
+left: -23px;
+}
+.gray-bg .parrafo-facturacion{
+text-align: center;
+}
+.gray-bg .feature-image{
+width: 60%;
+position: relative;
+top: -100px;
+left: 130px;
+}
+.col-md-12 {
+	flex: 0 0 auto;
+	width: 100%;
+	height: 275px;
+}
+.telefono-mano .h2-titulo-smarmar-punto{
+	text-align: center;
+ left: -52px;
+font-size: 25px;
+top: -520px;
+}
+.telefono-mano p {
+text-align: center;
+left: -5px;
+top: -550px;
+}
+.telefono-mano .imagen-telefono{
+width: 50%;
+position: relative;
+top: 38px;
+left: 198px;
+z-index: 1;
+}
+
+
+/* planes ------*/
+
+.snip1404 {
+	display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se ajusten en filas */
+    justify-content: space-between; /* Distribuye el espacio entre los elementos */
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: left;
+    font-size: 16px;
+    position: relative;
+    width: 48%; /* Ajusta el ancho para que dos elementos entren en una fila */
+    margin-bottom: 20px; /* Añade espacio entre filas */
+    max-height: 909px;
+    max-width: 1000px;
+    top: 0;
+    left: -156px;
+  }
+
+  .snip1404 .plan {
+    width: 100%; /* Se ajusta dentro de cada elemento */
+    margin: 10px 0;
+    display: block;
+    left: auto;
+    top: auto;
+  }
+
+  .h3-planes {
+	text-align: center;
+	padding: 50px 20px;
+	color: #006fff;
+	font-size: 2.5em;
+	margin: 0;
+	top: 245px;
+  }
 
 	.header-top .site-info {
 		text-align: center;
@@ -442,7 +618,177 @@
 	.header-top{
 		display: none;
 	}
+	.buton-login-inicio{
+		position: relative;
+		top: -8px;
+		left: 10px;
+		display: none;
+	}
+	.buton-login{
+		position: relative;
+		top: -8px;
+		left: 10px;
+		display: none;
+	}
+	.breadcroumb-area .main-btn{
+		display: inline-block;
+    background: #fff; /* Fondo transparente */
+    color: #333; /* Color del texto del botón, más oscuro */
+    font-size: 14px; /* Ajuste del tamaño de la fuente */
+    font-weight: 500;
+    border: 2px solid #0061f2; /* Borde azul */
+    border-radius: 5px; /* Esquinas redondeadas */
+    letter-spacing: normal; /* Espaciado normal entre letras */
+    padding: 10px 30px; /* Ajuste de padding para un tamaño más compacto */
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+	position: relative;
+    transition: background-color 0.3s ease, color 0.3s ease;
+		top: 183px;
+		left: 119px;
+	}
+	.breadcroumb-area h1 {
+        font-size: 30px;
+		text-align: center;
+		position: relative;
+		top: 200px;
+    }
+	.breadcroumb-area h3 {
+		font-size: 28px;
+		text-align: center;
+		position: relative;
+		top: 200px;
+	}
+	.breadcroumb-area p {
+		position: relative;
+		top: 200px;
+		left: 10px;
+		text-align: center;
+	}
+    
+    .robot-image {
+        max-width: 200px;
+		text-align: center;
+		position: relative;
+		top: -385px;
+		left: 94px;
+    }
+	.hero-area-bg-2 h1 {
+		top: -10px;
+		font-weight: 700;
+		font-size: 27px;
+		text-align: center;
+		color: #0061f2;
+	}
+	.hero-area-bg-2 .h2-titulo-smarmar-punto{
+		text-align: center;
+	font-size: 20px;
+	top: -303px;
+	left: -39px;
+}
+.hero-area-bg-2 .imagen-telefono {
+	background-position: center ;
+	position: relative;
+    width: 100%;
+	text-align: center;
+	top: 356px;
+	left: 5px;
 
+}
+.section-padding {
+	padding: 40px 40px;
+	height: 864px;
+}
+
+.hero-area-bg-2 .imagen-whatsapp {
+	position: relative;
+	top: 148px;
+	left: 91px;
+	width: 55%;
+}
+.hero-area-bg-2 p {
+	text-align: center;
+   position: relative;
+   top: -299px;
+}
+
+.gray-bg .h2-facturacion {
+	text-align: center;
+white-space: nowrap;
+font-size: 20px;
+font-weight: 700;
+left: -23px;
+}
+.gray-bg .parrafo-facturacion{
+text-align: center;
+}
+.gray-bg .feature-image{
+width: 70%;
+position: relative;
+top: 20px;
+left: 10px;
+}
+.col-md-12 {
+	flex: 0 0 auto;
+	width: 100%;
+	height: 275px;
+}
+.telefono-mano .h2-titulo-smarmar-punto{
+	text-align: center;
+ left: -65px;
+font-size: 15px;
+top: -520px;
+}
+.telefono-mano p {
+text-align: center;
+left: -5px;
+top: -550px;
+}
+.telefono-mano .imagen-telefono{
+width: 86%;
+position: relative;
+top: 170px;
+left: 9px;
+z-index: 1;
+}
+
+
+/* planes ------*/
+
+.snip1404 {
+	display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se ajusten en filas */
+    justify-content: space-between; /* Distribuye el espacio entre los elementos */
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: left;
+    font-size: 16px;
+    position: relative;
+    width: 48%; /* Ajusta el ancho para que dos elementos entren en una fila */
+    margin-bottom: 20px; /* Añade espacio entre filas */
+    max-height: 2332px;
+    max-width: 1000px;
+    top: 0;
+    left: -156px;
+  }
+
+  .snip1404 .plan {
+    width: 100%; /* Se ajusta dentro de cada elemento */
+    margin: 10px 0;
+    display: block;
+    left: auto;
+    top: auto;
+  }
+
+  .h3-planes {
+	text-align: center;
+	padding: 50px 20px;
+	color: #006fff;
+	font-size: 2.5em;
+	margin: 0;
+	top: 245px;
+  }
 	.header-top .site-info {
 		text-align: center;
 	}
@@ -1019,6 +1365,13 @@
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
 
+	.robot-image{
+        max-width: 200px;
+        text-align: center;
+        position: relative;
+        top: --373px;
+        left: 55px;
+    }
 	.section-title h2 {
 		font-size: 35px;
 		line-height: 45px;

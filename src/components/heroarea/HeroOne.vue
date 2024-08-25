@@ -84,36 +84,5 @@ onMounted(() => {
 
 
 <style scoped>
-@media (max-width: 768px) {
-	.breadcroumb-area h1 {
-        font-size: 30px;
-		text-align: center;
-		position: relative;
-		top: 200px;
-    }
-	.breadcroumb-area h3 {
-		font-size: 28px;
-		text-align: center;
-		position: relative;
-		top: 200px;
-	}
-	.breadcroumb-area p {
-		position: relative;
-		top: 200px;
-		left: 10px;
-		text-align: center;
-	}
-    
-    .robot-image {
-        max-width: 200px;
-		text-align: center;
-		position: relative;
-		top: -400px;
-    }
-	.main-btn {
-		position: relative;
-		top: 200px;
-		left: 136px;
-	}
-}
+@import '../../../public/assets/css/responsive.css';
 </style>

@@ -46,40 +46,7 @@
 </section>
 </template>
 
+
 <style scoped>
-@media (max-width: 768px) {
-	.hero-area-bg-2 h1 {
-		font-size: 25px;
-		top: -20px;
-		text-align: center;
-
-	}
-	.hero-area-bg-2 .h2-titulo-smarmar-punto{
-		text-align: center;
-	font-size: 20px;
-	top: -350px;
-}
-.hero-area-bg-2 .imagen-telefono {
-	background-position: center ;
-	position: relative;
-    width: 70%;
-	text-align: center;
-	top: 300px;
-	left: 66px;
-
-}
-.hero-area-bg-2 .imagen-whatsapp {
-	position: relative;
-	top: 120px;
-	left: 93px;
-	width: 40%;
-}
-.hero-area-bg-2 p {
-	text-align: center;
-   position: relative;
-   top: -350px;
-}
-
-
-}
+@import '../../../public/assets/css/responsive.css';
 </style>

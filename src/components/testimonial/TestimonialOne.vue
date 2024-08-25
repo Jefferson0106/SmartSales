@@ -217,9 +217,9 @@ h1{
 
 
 
-@media (max-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
   .jeffer-fqe{
-    height: 1300px;
+    height: 1377px;
   }
   h1{
  text-align: center;
@@ -230,7 +230,7 @@ text-align: center;
 .accordion {
   position: relative;
   left: 30px;
-  top: -100px;
+  top: -421px;
   width: 90%;
     
 }
@@ -266,9 +266,18 @@ left: 90px;
     transition: transform 0.3s ease;
     margin-left: auto; /* Alinea el ícono a la derecha */
 }
+.cordion-icon2 {
+  position: relative;
+  left: 70px;
+  width: 24px; /* Tamaño del ícono ajustado */
+    height: 24px; /* Tamaño del ícono ajustado */
+    fill: #0070ff; /* Color del ícono ajustado */
+    transition: transform 0.3s ease;
+    margin-left: auto; /* Alinea el ícono a la derecha */
+}
 .cordion-icon3 {
   position: relative;
-  left: 23px;
+  left: 106px;
   width: 44px; /* Tamaño del ícono ajustado */
     height: 24px; /* Tamaño del ícono ajustado */
     fill: #0070ff; /* Color del ícono ajustado */
@@ -286,9 +295,101 @@ left: 90px;
 }
 .robot {
   position: relative;
-  top: 804px;
-  left: 57px;
+  top: 697px;
+  left: 119px;
   width: 71%;
 }
+}
+
+
+
+/* Mobile Layout: 320px. 
+=====================================================================
+=====================================================================
+*/
+
+@media only screen and (max-width: 767px) {
+  .jeffer-fqe{
+    height: 1377px;
+  }
+  h1{
+ text-align: center;
+}
+.lorem{
+text-align: center;
+}
+.accordion {
+  position: relative;
+  left: 16px;
+  top: -126px;
+  width: 90%;
+    
+}
+.accordion-icon {
+    width: 74px; /* Tamaño del ícono ajustado */
+position: relative;
+left: 90px;
+}
+.cordion-icon6 {
+  position: relative;
+  left:24px;
+  width: 44px; /* Tamaño del ícono ajustado */
+    height: 24px; /* Tamaño del ícono ajustado */
+    fill: #0070ff; /* Color del ícono ajustado */
+    transition: transform 0.3s ease;
+    margin-left: auto; /* Alinea el ícono a la derecha */
+}
+.cordion-icon5 {
+  position: relative;
+  left: 23px;
+  width: 44px; /* Tamaño del ícono ajustado */
+    height: 24px; /* Tamaño del ícono ajustado */
+    fill: #0070ff; /* Color del ícono ajustado */
+    transition: transform 0.3s ease;
+    margin-left: auto; /* Alinea el ícono a la derecha */
+}
+.cordion-icon4 {
+  position: relative;
+  left: 23px;
+  width: 44px; /* Tamaño del ícono ajustado */
+    height: 24px; /* Tamaño del ícono ajustado */
+    fill: #0070ff; /* Color del ícono ajustado */
+    transition: transform 0.3s ease;
+    margin-left: auto; /* Alinea el ícono a la derecha */
+}
+.cordion-icon2 {
+  position: relative;
+  left: 70px;
+  width: 24px; /* Tamaño del ícono ajustado */
+    height: 24px; /* Tamaño del ícono ajustado */
+    fill: #0070ff; /* Color del ícono ajustado */
+    transition: transform 0.3s ease;
+    margin-left: auto; /* Alinea el ícono a la derecha */
+}
+.cordion-icon3 {
+  position: relative;
+  left: 106px;
+  width: 44px; /* Tamaño del ícono ajustado */
+    height: 24px; /* Tamaño del ícono ajustado */
+    fill: #0070ff; /* Color del ícono ajustado */
+    transition: transform 0.3s ease;
+    margin-left: auto; /* Alinea el ícono a la derecha */
+}
+.accordion-icon {
+  position: relative;
+  left: 23px;
+  width: 44px; /* Tamaño del ícono ajustado */
+    height: 24px; /* Tamaño del ícono ajustado */
+    fill: #0070ff; /* Color del ícono ajustado */
+    transition: transform 0.3s ease;
+    margin-left: auto; /* Alinea el ícono a la derecha */
+}
+.robot {
+  position: relative;
+  top: 865px;
+  left: 38px;
+  width: 71%;
+}
+
 }
 </style>

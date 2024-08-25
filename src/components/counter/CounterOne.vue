@@ -137,6 +137,7 @@ onUpdated(() => {
 	
 	
 	<style scoped>
+	@import '../../../public/assets/css/responsive.css';
 	@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
 	@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600);
 	
@@ -260,42 +261,269 @@ onUpdated(() => {
 	  padding: 50px 20px;
 	  color: #006fff;
 	  font-size: 2.5em;
-	  left: 50px;
 	  margin: 0;
 	  left: 100px;
 	  top: -170px;
 	}
-	
-	@media only screen and (max-width: 767px) {
-	  .snip1404 .plan {
-		width: calc(10% - 10px); /* Ajusta el ancho para pantallas pequeñas */
-		margin: 10px 0; /* Reduce el margen vertical */
-		display: block; /* Asegura que los planes se apilen verticalmente */
-		left: 31px; /* Restablece la posición relativa */
-		top: -127px;
-	  }
-	  .h3-planes {
-		padding: 50px 20px;
-		font-size: 28px;
-		top: -122px;
-		left: -20px;
-	  }
-	  .snip1404 {
+	@media only screen and (min-width: 768px) and (max-width: 991px) {
+		.snip1404 {
 	  font-family: 'Source Sans Pro', Arial, sans-serif;
-	  color: rgba(0, 0, 0, 0.5);
+	  color: rgba(0, 0, 0, 0.7);
 	  top: 10px;
 	  text-align: left;
 	  font-size: 16px;
 	  width: 100%;
-	  max-height: 2392px;
+	  max-height: 1215px;
 	  max-width: 1000px;
 	
 	}
+	
+	.snip1404 .plan {
+	  display: inline-block;
+	  margin: 27px 10px;
+	  position: relative;
+	  text-align: center;
+	  overflow: hidden;
+	  border: 3px solid #d7e9f2;
+	  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+	  background-color: #ffffff;
+	  border-radius: 10px;
+	  transition: transform 0.3s, box-shadow 0.3s;
+	  width: calc(49% - 20px); /* Ajusta el ancho para pantallas grandes */
+		top: -150px;
+		left: 162px;
 	}
 	
-	@media only screen and (max-width: 440px) {
-	  .snip1404 .plan {
-		width: calc(86% - 20px)/* Ajusta el ancho aún más para pantallas más pequeñas */
-	  }
+	.snip1404 .plan:hover {
+	  transform: scale(1.05);
+	  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 	}
+	
+	.snip1404 .plan-title {
+	  color: #ffffff;
+	  background-color: #006fff;
+	  position: relative;
+	  margin: 0;
+	  padding: 20px;
+	  text-transform: uppercase;
+	  letter-spacing: 1px;
+	  font-size: 1.25em;
+	}
+	
+	.snip1404 .plan-title:after {
+	  position: absolute;
+	  content: '';
+	  top: 100%;
+	  left: 0;
+	  width: 0;
+	  height: 0;
+	  border-style: solid;
+	  border-width: 40px 300px 0 0;
+	  border-color: #006fff transparent transparent;
+	}
+	
+	.snip1404 .plan-cost {
+	  padding: 20px;
+	  text-align: center;
+	}
+	
+	.snip1404 .plan-price {
+	  font-weight: 600;
+	  font-size: 3em;
+	  position: relative;
+	  top: 10px;
+	}
+	
+	.snip1404 .plan-type {
+	  opacity: 0.9;
+	  font-size: 1em;
+	  text-transform: uppercase;
+	}
+	
+	.snip1404 .plan-features {
+	  padding: 20px;
+	  margin: 0;
+	  list-style: none;
+	}
+	
+	.snip1404 .plan-features li {
+	  padding: 10px 0;
+	  border-bottom: 1px solid #e0e0e0;
+	  display: flex;
+	  align-items: center;
+	}
+	
+	.snip1404 .plan-features i {
+	  margin-right: 10px;
+	  color: #006fff;
+	}
+	
+	.snip1404 .plan-select {
+	  border-top: 1px solid #e0e0e0;
+	  padding: 20px;
+	  background-color: #f9f9f9;
+	}
+	
+	.snip1404 .plan-select a {
+	  background-color: #006fff;
+	  color: #ffffff;
+	  text-decoration: none;
+	  padding: 10px 20px;
+	  font-size: 0.875em;
+	  font-weight: 600;
+	  border-radius: 20px;
+	  text-transform: uppercase;
+	  display: inline-block;
+	  transition: background-color 0.3s;
+	}
+	
+	.snip1404 .plan-select a:hover {
+	  background-color: #0056b3;
+	}
+	
+	.h3-planes {
+	  text-align: center;
+	  padding: 50px 20px;
+	  color: #006fff;
+	  font-size: 2.5em;
+	  margin: 0;
+	  left: 184px;
+	  top: -170px;
+	}
+	}
+
+
+	/* Mobile Layout: 320px. 
+=====================================================================
+=====================================================================
+*/
+
+@media only screen and (max-width: 767px) {
+
+	.snip1404 {
+	  font-family: 'Source Sans Pro', Arial, sans-serif;
+	  color: rgba(0, 0, 0, 0.7);
+	  top: 10px;
+	  text-align: left;
+	  font-size: 16px;
+	  width: 100%;
+	  max-height: 2332px;
+	  max-width: 1000px;
+	
+	}
+	
+	.snip1404 .plan {
+	  display: inline-block;
+	  margin: 27px 10px;
+	  position: relative;
+	  text-align: center;
+	  overflow: hidden;
+	  border: 3px solid #d7e9f2;
+	  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+	  background-color: #ffffff;
+	  border-radius: 10px;
+	  transition: transform 0.3s, box-shadow 0.3s;
+	  width: calc(104% - 20px); /* Ajusta el ancho para pantallas grandes */
+		top: -150px;
+		left: 162px;
+	}
+	
+	.snip1404 .plan:hover {
+	  transform: scale(1.05);
+	  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+	}
+	
+	.snip1404 .plan-title {
+	  color: #ffffff;
+	  background-color: #006fff;
+	  position: relative;
+	  margin: 0;
+	  padding: 20px;
+	  text-transform: uppercase;
+	  letter-spacing: 1px;
+	  font-size: 1.25em;
+	}
+	
+	.snip1404 .plan-title:after {
+	  position: absolute;
+	  content: '';
+	  top: 100%;
+	  left: 0;
+	  width: 0;
+	  height: 0;
+	  border-style: solid;
+	  border-width: 40px 300px 0 0;
+	  border-color: #006fff transparent transparent;
+	}
+	
+	.snip1404 .plan-cost {
+	  padding: 20px;
+	  text-align: center;
+	}
+	
+	.snip1404 .plan-price {
+	  font-weight: 600;
+	  font-size: 3em;
+	  position: relative;
+	  top: 10px;
+	}
+	
+	.snip1404 .plan-type {
+	  opacity: 0.9;
+	  font-size: 1em;
+	  text-transform: uppercase;
+	}
+	
+	.snip1404 .plan-features {
+	  padding: 20px;
+	  margin: 0;
+	  list-style: none;
+	}
+	
+	.snip1404 .plan-features li {
+	  padding: 10px 0;
+	  border-bottom: 1px solid #e0e0e0;
+	  display: flex;
+	  align-items: center;
+	}
+	
+	.snip1404 .plan-features i {
+	  margin-right: 10px;
+	  color: #006fff;
+	}
+	
+	.snip1404 .plan-select {
+	  border-top: 1px solid #e0e0e0;
+	  padding: 20px;
+	  background-color: #f9f9f9;
+	}
+	
+	.snip1404 .plan-select a {
+	  background-color: #006fff;
+	  color: #ffffff;
+	  text-decoration: none;
+	  padding: 10px 20px;
+	  font-size: 0.875em;
+	  font-weight: 600;
+	  border-radius: 20px;
+	  text-transform: uppercase;
+	  display: inline-block;
+	  transition: background-color 0.3s;
+	}
+	
+	.snip1404 .plan-select a:hover {
+	  background-color: #0056b3;
+	}
+	
+	.h3-planes {
+	  text-align: center;
+	  padding: 50px 20px;
+	  color: #006fff;
+	  font-size: 1.5em;
+	  margin: 0;
+	  left: 169px;
+	  top: -170px;
+	}
+}
+	
 	</style>

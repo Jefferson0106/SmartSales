@@ -94,24 +94,18 @@ onUpdated(() => {
 </template>
 
 <style scoped>
-@media (max-width: 768px) {
-	.gray-bg .h2-facturacion {
-		text-align: center;
-	white-space: nowrap;
-	font-size: 20px;
-	left: -23px;
+@import '../../../public/assets/css/responsive.css';
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.gray-bg .feature-image{
+width: 50%;
+position: relative;
+top: -140px;
+left: 130px;
 }
-.gray-bg .parrafo-facturacion{
-	text-align: center;
+.col-md-12 {
+	flex: 0 0 auto;
+	width: 100%;
+	height: 275px;
 }
-.gray-bg .feature-image{
-	width: 60%;
-	position: relative;
-	top: -100px;
-	left: 50px;
-	
-}
-
-
 }
 </style>
