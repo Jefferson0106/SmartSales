@@ -73,7 +73,7 @@ onMounted(() => {
                     </div>
                 </div>
                 <div class="col-lg-6 text-right wow fadeInUp animated" data-wow-delay=".4s">
-                    <img src="/assets/resourcomp/Floating-Robot.png" alt="Robot" class="robot-image">
+                    <img src="/assets/resourcomp/Logo-SSA-simbolo.png" alt="Robot" class="robot-image">
                 </div>
             </div>
         </div>

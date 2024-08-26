@@ -47,7 +47,7 @@ onMounted(() => {
 			<div class="row align-items-center">
 			  <div class="col-lg-3">
 				<div class="logo"> 								
-				  <router-link class="navbar-brand" to="/"><img src="/assets/resourcomp/logo-simple.png" alt=""></router-link>
+				  <router-link class="navbar-brand" to="/"><img src="/assets/resourcomp/Logo-SSA.png" alt=""></router-link>
 				</div>
 			  </div>
 			  <div class="col-lg-6">

@@ -645,34 +645,34 @@ z-index: 1;
     cursor: pointer;
 	position: relative;
     transition: background-color 0.3s ease, color 0.3s ease;
-		top: 183px;
+		top: 363px;
 		left: 119px;
 	}
 	.breadcroumb-area h1 {
         font-size: 30px;
 		text-align: center;
 		position: relative;
-		top: 200px;
+		top: 380px;
     }
 	.breadcroumb-area h3 {
 		font-size: 28px;
 		text-align: center;
 		position: relative;
-		top: 200px;
+		top: 380px;
 	}
 	.breadcroumb-area p {
 		position: relative;
-		top: 200px;
+		top: 380px;
 		left: 10px;
 		text-align: center;
 	}
     
     .robot-image {
-        max-width: 200px;
+        max-width: 411px;
 		text-align: center;
 		position: relative;
-		top: -385px;
-		left: 94px;
+		top: -358px;
+		left: -5px;
     }
 	.hero-area-bg-2 h1 {
 		top: -10px;
@@ -1290,8 +1290,11 @@ z-index: 1;
 	}
 
 	.header-area .logo img {
-		width: 100px;
+		width: 132px;
 		margin-top: 15px;
+		position: relative;
+        left: 3px;
+        top: -36px;
 	}
 
 	.text{

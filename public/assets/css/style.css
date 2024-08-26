@@ -902,15 +902,20 @@ textarea:focus::-webkit-input-placeholder {
 }
 
 .header-area .logo img {
-	width: 100px;
+	width: 183px;
 	margin-top: 7px;
-	filter: invert(30%) sepia(0%) saturate(93%) hue-rotate(227deg) brightness(91%) contrast(78%);
+filter: invert(30%) sepia(7%) saturate(13%) hue-rotate(5deg) brightness(95%) contrast(85%);
+position: relative;
+top: -53px;
+left: -33px;
 }
 
 #header-2 .navigation {
 	height: 100px;
 	background: #051232;
 	border-top: 1px solid #eee;
+	position: relative;
+	top: 20px;
 }
 
 #header-3 .logo {
@@ -3338,11 +3343,11 @@ ul.team-social li a {
 	top: 28px;
 }
 .breadcroumb-area img {
-	max-width: 500px;
-    width: 90%;
+	max-width: 686px;
+    width: 118%;
 	position: relative;
 	top: -40px;
-	left: 90px;
+	left: -4px;
 	top: -68px;
     height: auto;
 }
